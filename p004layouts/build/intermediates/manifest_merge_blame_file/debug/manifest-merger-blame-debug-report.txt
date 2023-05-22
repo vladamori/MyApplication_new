@@ -1,0 +1,91 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.poyata.p004layouts"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\vlada\IdeaProjects\MyApplication2\p004layouts\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\vlada\IdeaProjects\MyApplication2\p004layouts\src\main\AndroidManifest.xml
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\vlada\.gradle\caches\transforms-3\699a6cd44f32c7b37b9ec7e66a1073c7\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.poyata.p004layouts.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\vlada\.gradle\caches\transforms-3\699a6cd44f32c7b37b9ec7e66a1073c7\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\vlada\.gradle\caches\transforms-3\699a6cd44f32c7b37b9ec7e66a1073c7\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.poyata.p004layouts.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\vlada\.gradle\caches\transforms-3\699a6cd44f32c7b37b9ec7e66a1073c7\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\vlada\.gradle\caches\transforms-3\699a6cd44f32c7b37b9ec7e66a1073c7\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Users\vlada\IdeaProjects\MyApplication2\p004layouts\src\main\AndroidManifest.xml:4:5-24:19
+18        android:allowBackup="true"
+18-->C:\Users\vlada\IdeaProjects\MyApplication2\p004layouts\src\main\AndroidManifest.xml:5:13-39
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] C:\Users\vlada\.gradle\caches\transforms-3\699a6cd44f32c7b37b9ec7e66a1073c7\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+20        android:debuggable="true"
+21        android:extractNativeLibs="false"
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Users\vlada\IdeaProjects\MyApplication2\p004layouts\src\main\AndroidManifest.xml:6:13-47
+23        android:label="@string/app_name"
+23-->C:\Users\vlada\IdeaProjects\MyApplication2\p004layouts\src\main\AndroidManifest.xml:7:13-45
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->C:\Users\vlada\IdeaProjects\MyApplication2\p004layouts\src\main\AndroidManifest.xml:8:13-58
+25        android:supportsRtl="true"
+25-->C:\Users\vlada\IdeaProjects\MyApplication2\p004layouts\src\main\AndroidManifest.xml:9:13-39
+26        android:testOnly="true"
+27        android:theme="@style/Theme.MyApplication" >
+27-->C:\Users\vlada\IdeaProjects\MyApplication2\p004layouts\src\main\AndroidManifest.xml:10:13-55
+28        <activity
+28-->C:\Users\vlada\IdeaProjects\MyApplication2\p004layouts\src\main\AndroidManifest.xml:11:9-23:20
+29            android:name="com.poyata.p004layouts.MainActivity"
+29-->C:\Users\vlada\IdeaProjects\MyApplication2\p004layouts\src\main\AndroidManifest.xml:12:17-45
+30            android:exported="true" >
+30-->C:\Users\vlada\IdeaProjects\MyApplication2\p004layouts\src\main\AndroidManifest.xml:13:17-40
+31            <intent-filter>
+31-->C:\Users\vlada\IdeaProjects\MyApplication2\p004layouts\src\main\AndroidManifest.xml:14:13-18:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\vlada\IdeaProjects\MyApplication2\p004layouts\src\main\AndroidManifest.xml:15:17-68
+32-->C:\Users\vlada\IdeaProjects\MyApplication2\p004layouts\src\main\AndroidManifest.xml:15:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\vlada\IdeaProjects\MyApplication2\p004layouts\src\main\AndroidManifest.xml:17:17-76
+34-->C:\Users\vlada\IdeaProjects\MyApplication2\p004layouts\src\main\AndroidManifest.xml:17:27-74
+35            </intent-filter>
+36
+37            <meta-data
+37-->C:\Users\vlada\IdeaProjects\MyApplication2\p004layouts\src\main\AndroidManifest.xml:20:13-22:39
+38                android:name="android.app.lib_name"
+38-->C:\Users\vlada\IdeaProjects\MyApplication2\p004layouts\src\main\AndroidManifest.xml:21:21-56
+39                android:value="" />
+39-->C:\Users\vlada\IdeaProjects\MyApplication2\p004layouts\src\main\AndroidManifest.xml:22:21-37
+40        </activity>
+41
+42        <provider
+42-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vlada\.gradle\caches\transforms-3\480efd2cfdb1622611f1b983a0f257a3\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+43            android:name="androidx.startup.InitializationProvider"
+43-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vlada\.gradle\caches\transforms-3\480efd2cfdb1622611f1b983a0f257a3\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+44            android:authorities="com.poyata.p004layouts.androidx-startup"
+44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vlada\.gradle\caches\transforms-3\480efd2cfdb1622611f1b983a0f257a3\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+45            android:exported="false" >
+45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vlada\.gradle\caches\transforms-3\480efd2cfdb1622611f1b983a0f257a3\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+46            <meta-data
+46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vlada\.gradle\caches\transforms-3\480efd2cfdb1622611f1b983a0f257a3\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+47                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vlada\.gradle\caches\transforms-3\480efd2cfdb1622611f1b983a0f257a3\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+48                android:value="androidx.startup" />
+48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vlada\.gradle\caches\transforms-3\480efd2cfdb1622611f1b983a0f257a3\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+49            <meta-data
+49-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\vlada\.gradle\caches\transforms-3\fb9c4e2e9da4e6381d95e31c3f884ea3\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+50                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+50-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\vlada\.gradle\caches\transforms-3\fb9c4e2e9da4e6381d95e31c3f884ea3\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+51                android:value="androidx.startup" />
+51-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\vlada\.gradle\caches\transforms-3\fb9c4e2e9da4e6381d95e31c3f884ea3\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+52        </provider>
+53    </application>
+54
+55</manifest>

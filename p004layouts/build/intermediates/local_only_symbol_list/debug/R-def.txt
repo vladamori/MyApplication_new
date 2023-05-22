@@ -1,0 +1,33 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id button23
+id button24
+id button25
+id button4
+id button5
+id button6
+id button7
+id button8
+id button9
+id entry
+id label
+id ok
+id textView3
+id textView4
+id textView5
+layout activity_main
+layout rlayout
+layout tlayout
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.MyApplication
